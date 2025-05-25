@@ -2,6 +2,9 @@ package com;
 
 public class Travel {
 
+	/*
+	 * This method checks whether the driver drives a vehicle of category car or not
+	 */
 	public boolean isCarDriver(Driver driver) {
 		if (driver.getCategory().equalsIgnoreCase("car")) {
 			return true;
